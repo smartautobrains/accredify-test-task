@@ -1,0 +1,54 @@
+[
+    {
+        "data": {
+            "id": "asd123",
+            "name": "Certificate of Completion",
+            "recipient": {
+                "name": "Marty McFly",
+                "email": "marty.mcfly@gmail.com"
+            },
+            "issuer": {
+                "name": "Accredify"
+            },
+            "issued": "2024-05-09T00:00:00+08:00"
+        }
+    },
+    {
+        "data": {
+            "id": "asd123",
+            "name": "Certificate of Completion",
+            "recipient": {
+                "name": "Marty McFly",
+                "email": "marty.mcfly@gmail.com"
+            },
+            "issuer": {
+                "name": "Accredify",
+                "identityProof": {
+                    "type": "DNS-DID",
+                    "key": null,
+                    "location": null
+                }
+            },
+            "issued": "2024-05-09T00:00:00+08:00"
+        }
+    },
+    {
+        "data": {
+            "id": "asd123",
+            "name": "Certificate of Completion",
+            "recipient": {
+                "name": "Marty McFly",
+                "email": "marty.mcfly@gmail.com"
+            },
+            "issuer": {
+                "name": "Accredify",
+                "identityProof": {
+                    "type": "DNS-DID",
+                    "key": "somestr",
+                    "location": "someurl"
+                }
+            },
+            "issued": "2024-05-09T00:00:00+08:00"
+        }
+    }
+]
